@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
 
 
 /// Animates the aquarium. This function just renders the scene every
-/// 25 milliseconds. A timer is used to give smooth animation at the
+/// 20 milliseconds. A timer is used to give smooth animation at the
 /// same rate on differnt computers. idle function draws the scenes
 /// at way too different speeds on different computers
 void animator(int type)
